@@ -12,7 +12,7 @@
 #
 
 # ==[Variables]=========================================================
-VERSION="0.3-b3 for Matriux Leandros"
+VERSION="0.5-b for Matriux Blue"
 icon="/pt/matriux/icons/48x48/icon.png"
 title="Matriux Disk Installer [${VERSION}]"
 current_user="matriux"
