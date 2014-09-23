@@ -39,7 +39,7 @@ intro() {
 		| grep -v GFS2 | grep -v ISO | grep -v NTFS | grep -v PROC | grep -v UDF \
 		| cut -d_ -f2 | tr '[:upper:]' '[:lower:]' | sed 's/^/\t- /g'
 	)
-	if ! zenity --question --window-icon="${icon}" --width=450 --title="${title}" \
+	if ! zenity --question --no-wrap --window-icon="${icon}" --width=450 --title="${title}" \
 	--text="Welcome to the Matriux Disk Installer.
 
 This installation program does not perform the process of partitioning your hard-disk.
